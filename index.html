@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de tempo de download</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- CABEÇALHO -->
+    <header class="cabecalho container">
+        <a href="index.html">
+            <h1 class="logo">Calculadora de tempo de download</h1>
+        </a>
+        <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+        <nav class="menu">
+            <button class="btn-close">
+                <i class="fa fa-times fa-lg"></i>
+            </button>
+            <ul>
+                <li><a href="#">English</a></li>
+                <li><a href="#"> Contato</a></li>
+                <li><a href="#"> Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="calculadora secao container">
+            <h1>Calcule o tempo do seu download:</h1>
+            <p>
+                <input type="number" name="nta" id="nta" class="entrada" placeholder="Digite o tamanho do arquivo aqui">
+                <select id="tam" class="select">
+                    <option>Gigabyte</option>
+                    <option>Megabyte</option>
+                    <option>Kilobyte</option>
+                    <option>Byte</option>
+                </select>
+            </p>
+            <br>
+            <p>
+                <input type="number" name="nvc" id="nvc" class="entrada"
+                    placeholder="Digite a velocidade da conexão aqui">
+                <select id="vel" class="select">
+                    <option>Mbps</option>
+                    <option>Kbps</option>
+                    <option>KBps</option>
+                </select>
+            </p>
+            <br>
+            <p>
+                <br> <input type="button" value="Calcular" onclick="calcular()" class="select">
+            </p>
+            <div id="res" class="res">
+                <p>Preencha os campos acima</p>
+            </div>
+        </section>
+        <section class="entenda secao container">
+            <h1>Entenda como o cálculo é feito:</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                industry. Lorem
+                Ipsum has been
+                the and scrambled it.
+                atype specimenLorem Ipsum is simply dummy text of the printing and typesetting of the
+                industry. Lorem
+                Ipsum has been
+                the and scrambled it.
+                atype specimenLorem Ipsum is simply dummy text of the printing and typesetting of the
+                industry. Lorem
+                Ipsum has been
+                the and scrambled it.
+                atype specimenLorem Ipsum is simply dummy text of the printing and typesetting of the
+                industry. Lorem
+                Ipsum has been
+                the and scrambled it.
+                atype specimen
+                Lorem Ipsum is simply dummy text of the printing and typesetting of the industry. Lorem Ipsum has been
+                the and scrambled it. atype specimenLorem Ipsum is simply dummy text of the printing and typesetting of
+                the industry. Lorem Ipsum has been the and scrambled it. atype specimenLorem Ipsum is simply dummy text
+                of the printing and typesetting of the industry. Lorem Ipsum has been the and scrambled it. atype
+                specimenLorem Ipsum is simply dummy text of the printing and typesetting of the industry. Lorem Ipsum
+                has been the and scrambled it. atype specimenLorem Ipsum is simply dummy text of the printing and
+                typesetting of the industry. Lorem Ipsum has been the and scrambled it. atype specimenLorem Ipsum is
+                simply dummy text of the printing and typesetting of the industry. Lorem Ipsum has been the and
+                scrambled it. atype specimenLorem Ipsum is simply dummy text of the printing and typesetting of the
+                industry. Lorem Ipsum has been the and scrambled it. atype specimenLorem Ipsum is simply dummy text of
+                the printing and typesetting of the industry. Lorem Ipsum has been the and scrambled it. atype
+                specimenLorem Ipsum is simply dummy text of the printing and typesetting of the industry. Lorem Ipsum
+                has been the and scrambled it. atype specimenLorem Ipsum is simply dummy text of the printing and
+                typesetting of the industry. Lorem Ipsum has been the and scrambled it. atype specimenLorem Ipsum is
+                simply dummy text of the printing and typesetting of the industry. Lorem Ipsum has been the and
+                scrambled it. atype specimenLorem Ipsum is simply dummy text of the printing and typesetting of the
+                industry. Lorem Ipsum has been the and scrambled it. atype specimenLorem Ipsum is simply dummy text of
+                the printing and typesetting of the industry. Lorem Ipsum has been the and scrambled it. atype
+                specimenLorem Ipsum is simply dummy text of the printing and typesetting of the industry. Lorem Ipsum
+                has been the and scrambled it. atype specimenLorem Ipsum is simply dummy text of the printing and
+                typesetting of the industry. Lorem Ipsum has been the and scrambled it. atype specimenLorem Ipsum is
+                simply dummy text of the printing and typesetting of the industry. Lorem Ipsum has been the and
+                scrambled it. atype specimenLorem Ipsum is simply dummy text of the printing and typesetting of the
+                industry. Lorem Ipsum has been the and scrambled it. atype specimenLorem Ipsum is simply dummy text of
+                the printing and typesetting of the industry. Lorem Ipsum has been the and scrambled it. atype
+                specimenLorem Ipsum is simply dummy text of the printing and typesetting of the industry. Lorem Ipsum
+                has been the and scrambled it. atype specimenLorem Ipsum is simply dummy text of the printing and
+                typesetting of the industry. Lorem Ipsum has been the and scrambled it. atype specimenLorem Ipsum is
+                simply dummy text of the printing and typesetting of the industry. Lorem Ipsum has been the and
+                scrambled it. atype specimenLorem Ipsum is simply dummy text of the printing and typesetting of the
+                industry. Lorem Ipsum has been the and scrambled it. atype specimenLorem Ipsum is simply dummy text of
+                the printing and typesetting of the industry. Lorem Ipsum has been the and scrambled it. atype
+                specimenLorem Ipsum is simply dummy text of the printing and typesetting of the industry. Lorem Ipsum
+                has been the and scrambled it. atype specimenLorem Ipsum is simply dummy text of the printing and
+                typesetting of the industry. Lorem Ipsum has been the and scrambled it. atype specimenLorem Ipsum is
+                simply dummy text of the printing and typesetting of the industry. Lorem Ipsum has been the and
+                scrambled it. atype specimenLorem Ipsum is simply dummy text of the printing and typesetting of the
+                industry. Lorem Ipsum has been the and scrambled it. atype specimenLorem Ipsum is simply dummy text of
+                the printing and typesetting of the industry. Lorem Ipsum has been the and scrambled it. atype specimen
+            </p>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>&copyMatheus Matos de Souza. Todos os direitos reservados. </p>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        $(".btn-menu").click(function () {
+            $(".menu").fadeIn();
+            $(".btn-menu").fadeOut();
+        });
+        $(".btn-close").click(function () {
+            $(".menu").fadeOut();
+            $(".btn-menu").fadeIn();
+
+        });
+    </script>
+</body>
+
+</html>

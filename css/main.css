@@ -1,0 +1,206 @@
+* {margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box;
+    font-family: 'Lato', sans-serif;}
+
+body {
+	background-color: #f5f5f5;
+	padding: 1%
+	}
+	
+
+a {text-decoration: none;}
+
+ul {list-style: none;}
+
+img {max-width: 100%;}
+
+.container{
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+}
+
+.logo{
+    width: 70px; 
+    height: 70px; 
+    float: left; 
+    background: url(../img/logo.png) center center/60px no-repeat;
+    font-size: 0;
+}
+
+
+.btn-menu{
+    margin-top: 10px;
+    width: 45px;
+    height: 45px;
+    float: right;
+    text-align: center;
+    border-radius:50px;
+    background: #3986b8;
+    color: white;
+    cursor: pointer;
+}
+
+.menu{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.btn-close{
+    float: right;
+    margin: 2% 3% 0 0;
+    font-size: 1.5em;
+    cursor: pointer;
+    background: white;
+    color: #3986b8;
+}
+
+.menu ul {
+    width: 100%; 
+    float: left; 
+    text-align: center; 
+     
+}
+.menu li {
+    padding: 1.5%;
+}
+.menu li a {
+    font-size: 1.5em; 
+    color: black; 
+    padding: 1.5% 3%;
+}
+.menu li a:hover {
+    border:1px solid #3986b8;
+    border-radius: 5px;
+}
+
+.secao{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 3px 3px 10px rgba(57, 134, 184, 0.3);
+    margin-bottom: 15px;
+}
+
+.secao h1{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.entrada {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #3986b8;
+    font-size: medium;
+    border-radius: 3px;
+}
+
+.select{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #3986b8;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: 400;
+    background-color: #3986b8;
+    color: white;
+    cursor: pointer;
+}
+
+.res{
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+.rodape{
+    background:#3986b8;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 2%;
+    text-align: center;
+}
+
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (min-width: 480px) {
+    .logo {width: 214px; background: url(../img/logo2.png) center center/214px no-repeat;}
+}
+
+@media screen and (min-width: 1080px) {
+    header{
+        margin-top: 0%;
+        background-color: white;
+        margin-bottom: 30px;
+        border-radius: 0 0 30px 30px;
+    }
+    
+    .logo {
+        width: 300px; 
+        background: url(../img/logo2.png) center center/300px no-repeat;
+
+    }
+    
+    .secao{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 20px;
+    }
+
+    .secao h1{
+        font-size: 1.6em;
+        margin-bottom: 40px;
+    }
+
+    .btn-menu{
+        display: none!important;
+    }
+
+    .btn-close{
+        display: none;
+    }
+
+    .menu {
+        width: auto;
+        height: 56px;
+        line-height: 56px;
+        float: right;
+        display: block!important;
+        background-color: white;
+        position: static;
+    }
+    .menu li{
+        padding: 0;
+        float: left;
+    }
+    .menu li a{
+        color: #130400;
+        font-size: 1.3em;
+        padding: 15px;
+    }
+
+    .rodape{
+        border-radius: 20px 20px 0 0;
+    }
+    
+    body{
+    	padding: 0;
+    }
+    
+}
